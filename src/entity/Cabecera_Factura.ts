@@ -19,7 +19,6 @@ export class Cabecera_Factura{
     codigo_vendedor:number
 
 
- 
     @OneToMany(() => Detalle_factura, (detalleFactura) => detalleFactura.cabezeraFactura)
     detallesFactura: Detalle_factura[];
 
