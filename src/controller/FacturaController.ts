@@ -45,8 +45,8 @@ class FacturaController{
            detalle.numero=numero;
            detalle.cantidad=cantidad
            detalle.codigo_producto = codigo_producto;
-           detalle.producto = codigo_producto;  // Asignar el objeto Producto
-           detalle.cabezeraFactura = numero;  // Asignar el objeto CabeceraFactura
+           detalle.producto = codigo_producto;
+           detalle.cabezeraFactura = numero;  
             
       
           
